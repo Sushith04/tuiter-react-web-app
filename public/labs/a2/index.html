@@ -11,7 +11,8 @@
     <h4>This is Header Tag 4</h4>
     <h5>This is Header Tag 5</h5>
     <h6>This is Header Tag 6</h6>
-
+    <hr/>
+    <hr/>
     <h3>Paragraph Tag</h3>
     <p>
         This is the first paragraph. The paragraph tag is used to format vertical gaps between long pieces of text
@@ -24,7 +25,8 @@
     <p>
         This is the third paragraph. Wrap each paragraph with the paragraph tag to tell browsers to render the gaps.
     </p>
-
+    <hr/>
+    <hr/>
     <h2>List Tags</h2>
     <h3>Ordered List Tag</h3>
     How to join the 1%
@@ -34,7 +36,7 @@
         <li>Marry a like-minded engineer</li>
         <li>Do great work for a decade</li>
     </ol>
-
+    <hr/>
     <h3>Unordered List Tag</h3>
     My favorite books (in no particular order)
     <ul>
@@ -44,7 +46,8 @@
         <li>Red Mars</li>
         <li>The Forever War</li>
     </ul>
-
+    <hr/>
+    <hr/>
     <h3>Table Tag</h3>
     <table border="1" width="100%">
         <thead>
@@ -82,19 +85,19 @@
         </tr>
         </tfoot>
     </table>
-
+    <hr/>
+    <hr/>
     <h3>Image Tag</h3>
     Loading an image from the internet:<br/>
-
     <img width="400px"
          src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"/>
     <br/>
-
+    <hr/>
     Loading a local image:<br/>
-
     <img src="teslabot.jpg"
          height="200px"/>
-
+    <hr/>
+    <hr/>
     <h2>Form Tags</h2>
     <h3>Text Fields</h3>
     <form id="text-fields">
@@ -127,14 +130,14 @@
         <input type="date"
                id="text-fields-dob"
                value="2000-01-21"/><br/>
-
+        <hr/>
         <h3>Text Boxes</h3>
         <label>Biography:</label><br/>
         <textarea cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
-
+        <hr/>
         <h3>Buttons</h3>
         <button>Click me!</button>
-
+        <hr/>
         <h3>Dropdowns</h3>
         <h4>Select One</h4>
         <label for="select-one-genre">Favorite movie genres:</label><br/>
@@ -152,10 +155,10 @@
             <option selected value="SCIFI">Science Fiction</option>
             <option value="FANTASY">Fantasy</option>
         </select>
-
+        <hr/>
         <h3>File upload</h3>
         <input type="file"/>
-
+        <hr/>
         <h3>Radio Buttons</h3>
         <label>Favorite movie genre:</label><br/>
         <input type="radio" value="COMEDY"
@@ -170,7 +173,7 @@
         <input type="radio" value="FANTASY"
                name="radio-genre" id="radio-fantasy"/>
         <label for="radio-fantasy">Fantasy</label>
-
+        <hr/>
         <h3>Checkboxes</h3>
         <label>Favorite movie genre:</label>
         <br/>
@@ -187,10 +190,97 @@
                name="check-genre" id="chkbox-fantasy"/>
         <label for="chkbox-fantasy">Fantasy</label>
     </form>
-
+    <hr/>
+    <hr/>
     <h3>Anchor Tag</h3>
     Please
     <a href="https://www.lipsum.com">click here</a>
     to get dummy text<br/>
+    <hr/>
+    <hr/>
+    <h2>Iframes</h2>
+    <h3>Table of Content</h3>
+    <ul>
+        <li><a href="#embedding-website">Embedding other websites</a></li>
+        <li><a href="#embedding-youtube">Embedding YouTube</a></li>
+        <li><a href="#embedding-slides">Embedding Google slides</a></li>
+    </ul>
+    <a name="embedding-website"></a>
+    <h3>Embedding other websites</h3>
+    <a href="#top">Top</a><br/>
+    <iframe width="600"
+            height="400"
+            src="https://en.wikipedia.org/wiki/SpaceX">
+    </iframe>
+    <hr/>
+    <a name="embedding-youtube"></a>
+    <h3>Embedding YouTube</h3>
+    <a href="#top">Top</a><br/>
+    <iframe width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7CZTLogln34"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+    <hr/>
+    <a name="embedding-slides"></a>
+    <h3>Embedding Google slides</h3>
+    <a href="#top">Top</a><br/>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQoIYM2gXzRLKt4q5D2-ZahG7zvVcAipkRvj5k9GVLiGDs8NPlLpO3Q08cPUKQbqhL6g8aZp1ZJSwrw/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="680"
+            height="418"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+    </iframe>
+    <hr/>
+    <hr/>
+    <h2>Scalable vector graphics(SVG)</h2>
+    <h3>Table of Content</h3>
+    <ul>
+        <li><a href="#drawing-rectangles">Drawing rectangles</a></li>
+        <li><a href="#drawing-circles">Drawing circles</a></li>
+        <li><a href="#drawing-polygons">Drawing polygons</a></li>
+    </ul>
+    <a name="drawing-rectangles"></a>
+    <h3>Drawing rectangles</h3>
+    <a href="#top">Top</a><br/>
+    <svg width="300" height="100">
+        <rect width="300" height="100"
+              style="fill:rgb(0,0,255); stroke-width:10; stroke:rgb(0,0,0)" />
+    </svg>
+    <hr/>
+    <a name="drawing-circles"></a>
+    <h3>Drawing circles</h3>
+    <a href="#top">Top</a><br/>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"
+                stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <hr/>
+    <a name="drawing-polygons"></a>
+    <h3>Drawing polygons</h3>
+    <a href="#top">Top</a><br/>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 style="fill:lime; stroke:purple; stroke-width:5; fill-rule:evenodd;" />
+    </svg>
+    <hr/>
+    <hr/>
+    <h2>Anchors</h2>
+    <a name="table-of-content"></a>
+    <a href="#section-a">Go to section A</a>
+    <a href="#section-b">Go to section B</a>
+
+    <a name="section-a"></a>
+    <h3>Section A</h3></a>
+    <a href="#table-of-content">Up</a>
+    <a name="section-b"></a>
+    <h3>Section B</h3></a>
+    <a href="#table-of-content">Up</a>
+
 </body>
 </html>
