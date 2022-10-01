@@ -1,0 +1,43 @@
+.wd-margin-top-12 {
+  margin-top: 12px;
+}
+
+.wd-font-20 {
+  font-size: 20px;
+}
+
+.wd-font-13 {
+  font-size: 13px;
+}
+
+.wd-font-15 {
+  font-size: 15px;
+}
+
+.wd-lgray {
+  color: rgb(110, 118, 125);
+}
+
+.wd-border-left-thin-lgray {
+   border-left: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-right-thin-lgray {
+   border-right: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-top-thin-lgray {
+   border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-grid-row { clear: both; }
+
+.wd-grid-col-quarter-page {
+   width: 25%;
+   float: left;
+}
+
+.wd-adjustments {
+    margin-top:-3px;
+    margin-bottom:3px;
+}

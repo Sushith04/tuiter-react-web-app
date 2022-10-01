@@ -1,0 +1,87 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: rgb(47, 51, 54);
+    background-color: rgb(47, 51, 54);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5
+}
+
+input {
+    border: 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.wd-padding-12 {
+    padding: 12px;
+}
+
+.wd-padded-top-12 {
+  padding-top: 12px;
+}
+
+.wd-padded-left-12 {
+  padding-left: 12px;
+}
+
+.wd-padded-bottom-12 {
+  padding-bottom: 12px;
+}
+
+.wd-padded-right-12 {
+  padding-right: 12px;
+}
+
+.wd-padded-right-16 {
+  padding-right: 16px;
+}
+
+.wd-padded-left-16 {
+  padding-left: 16px;
+}
+
+.wd-float-left {
+    float: left
+}
+
+.wd-float-right {
+    float: right
+}
+
+.wd-border-bottom-thin-lgray {
+   border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-thin-lgray {
+   border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-rounded-image {
+    border-radius: 50%;
+}
+
+.wd-rounded-corners-top {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}

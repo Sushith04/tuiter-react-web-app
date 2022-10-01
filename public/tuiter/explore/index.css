@@ -1,0 +1,53 @@
+.wd-nav-tabs {
+    color: rgb(110, 118, 125);
+    padding: 0px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+    float:left;
+    width:16%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-nav-tabs li a:hover {
+    background-color: rgb(47, 51, 54);
+}
+
+.wd-nav-selected {
+    color: rgb(29, 161, 242);
+    border-bottom: solid 4px rgb(29, 161, 242);
+    padding-bottom:15px;
+    border-radius: 1.5px
+}
+
+.wd-searchbar {
+    width: 90%;
+    height: 38px;
+    border-radius: 2em;
+    background-color: #282828;
+    color: white;
+}
+
+.wd-padded-16 {
+    padding: 16px;
+}
+
+.wd-gray-color {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-topic {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-fill-pic {
+    height: 130px;
+}
