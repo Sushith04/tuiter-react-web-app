@@ -203,6 +203,13 @@ p#id-selector-2 {
    color: white;
 }
 
+.rotate-list1 {
+   transform: rotate(-12deg);
+   width: 100px;
+   background-color: yellow;
+   color: black;
+}
+
 .rotate-list-items li {
    width: 100px;
    text-align: right;
@@ -226,6 +233,10 @@ p#id-selector-2 {
 
 .rotate-image {
    transform: rotate(-10deg);
+}
+
+.rotate-image1 {
+   transform: rotate(5deg);
 }
 
 .rotate-table {
@@ -259,8 +270,20 @@ p#id-selector-2 {
    height: 200px;
 }
 
+.gradients-linear-1 {
+   background: linear-gradient(pink, blue);
+   width: 200px;
+   height: 200px;
+}
+
 .gradients-radial {
    background: radial-gradient(yellow, green);
+   width: 200px;
+   height: 200px;
+}
+
+.gradients-radial-1 {
+   background: radial-gradient(blue, red);
    width: 200px;
    height: 200px;
 }
@@ -273,6 +296,14 @@ p#id-selector-2 {
    color: white;
 }
 
+.gradients-positioned-1 {
+   background:
+   radial-gradient(at bottom right, yellow, blue);
+   width: 200px;
+   height: 200px;
+   color: white;
+}
+
 .animation-keyframes {
    position: relative;
    top: 0px;
@@ -280,6 +311,30 @@ p#id-selector-2 {
    animation-name: slidein;
    width: 200px;
    height: 200px;
+   background-color: red;
+   color: white;
+}
+
+.animation-keyframes-1 {
+   position: relative;
+   top: 0px;
+   animation-duration: 7s;
+   animation-name: slidein;
+   width: 200px;
+   height: 200px;
+   animation-iteration-count: infinite;
+   background-color: red;
+   color: white;
+}
+
+.animation-keyframes-2 {
+   position: relative;
+   top: 0px;
+   animation-duration: 7s;
+   animation-name: slidein;
+   width: 200px;
+   height: 200px;
+   animation-direction: reverse;
    background-color: red;
    color: white;
 }
@@ -402,9 +457,18 @@ p#id-selector-2 {
    border-color: black;
    border-style: solid;
    display: flex;
+   justify-content: space-evenly;
+   align-items: flex-end;
 }
 
-.flex-container-8 > .flex-box { flex-basis: 100%; }
+.flex-container-9 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+}
+
+.flex-container-9 > .flex-box { flex-basis: 100%; }
 
 @media (min-width: 0px)
    and (max-width: 600px) {
