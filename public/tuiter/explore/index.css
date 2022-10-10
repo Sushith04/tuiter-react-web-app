@@ -1,53 +1,23 @@
-.wd-nav-tabs {
-    color: rgb(110, 118, 125);
-    padding: 0px;
+.fa-stack.small {
+    font-size: 0.55em;
+    margin-left: -4px;
+    margin-top: -4px;
 }
 
-.wd-nav-tabs li {
-    list-style-type: none;
-    display: inline-block;
-    float:left;
-    width:16%;
+.has-search .form-control {
+    padding-left: 3.2rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.has-search .form-control-feedback {
+    padding-left: 1.2rem;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.8rem;
     text-align: center;
-    word-wrap: break-word;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.wd-nav-tabs li a:hover {
-    background-color: rgb(47, 51, 54);
-}
-
-.wd-nav-selected {
-    color: rgb(29, 161, 242);
-    border-bottom: solid 4px rgb(29, 161, 242);
-    padding-bottom:15px;
-    border-radius: 1.5px
-}
-
-.wd-searchbar {
-    width: 90%;
-    height: 38px;
-    border-radius: 2em;
-    background-color: #282828;
-    color: white;
-}
-
-.wd-padded-16 {
-    padding: 16px;
-}
-
-.wd-gray-color {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-}
-
-.wd-topic {
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.wd-fill-pic {
-    height: 130px;
+    pointer-events: none;
 }

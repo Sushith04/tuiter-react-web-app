@@ -1,0 +1,87 @@
+.fa-stack.small {
+    font-size: 0.55em;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+
+.has-search .form-control {
+    padding-left: 4rem;
+    background-color: #202020;
+    border: none;
+    height: 2.8rem;
+    width: 95%;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 5rem;
+    line-height: 2.9rem;
+    text-align: center;
+    pointer-events: none;
+    color: rgb(110, 118, 125);
+}
+
+.list-group-item {
+    color: white;
+    background-color: black;
+}
+
+.list-group-item:hover {
+    color: white;
+    background-color: black;
+}
+
+.nav a:hover, .nav .nav-item .active:hover {
+    background-color: #202020;
+    color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.list-group .btn {
+    background-color: rgb(29, 161, 242);
+    border: none;
+    font-weight: bold;
+}
+
+.list-group .btn-white {
+    background-color: white;
+    color: black;
+}
+
+.nav-fill .nav-item a {
+    color: rgb(110, 118, 125);
+}
+
+.nav-fill .nav-item .active {
+    background-color: black;
+    color: white;
+    border-bottom-color: blue;
+    font-weight: bold;
+}
+
+.nav-fill .nav-item span.wd-selected {
+    border-bottom: 4px solid rgb(29, 161, 242);
+    padding-bottom: 14px;
+}
+
+.wd-rounded-5 {
+    border-radius: 8px;
+}
+
+.wd-gray-rounded {
+    border-radius: 15px;
+}
+
+.wd-gray-rounded .list-group-item {
+    border: #202020;
+    background-color: #202020;
+}
+
+.wd-nm-links a {
+    text-decoration: none;
+    color: #6c757d;
+}

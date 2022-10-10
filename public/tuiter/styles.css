@@ -33,27 +33,27 @@ input:focus {
 }
 
 .wd-padded-top-12 {
-  padding-top: 12px;
+    padding-top: 12px;
 }
 
 .wd-padded-left-12 {
-  padding-left: 12px;
+    padding-left: 12px;
 }
 
 .wd-padded-bottom-12 {
-  padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 
 .wd-padded-right-12 {
-  padding-right: 12px;
+    padding-right: 12px;
 }
 
 .wd-padded-right-16 {
-  padding-right: 16px;
+    padding-right: 16px;
 }
 
 .wd-padded-left-16 {
-  padding-left: 16px;
+    padding-left: 16px;
 }
 
 .wd-float-left {
@@ -64,12 +64,24 @@ input:focus {
     float: right
 }
 
+.wd-border-top-thin-lgray {
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
 .wd-border-bottom-thin-lgray {
-   border-bottom: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-left-thin-lgray {
+    border-left: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-right-thin-lgray {
+    border-right: 1px solid rgb(47, 51, 54);
 }
 
 .wd-border-thin-lgray {
-   border: 1px solid rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
 }
 
 .wd-rounded-image {
