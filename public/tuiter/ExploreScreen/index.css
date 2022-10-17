@@ -1,0 +1,56 @@
+.fa-stack.small {
+    font-size: 0.55em;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+
+.has-search .form-control {
+    padding-left: 3.2rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.has-search .form-control-feedback {
+    padding-left: 1.2rem;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.9rem;
+    text-align: center;
+    pointer-events: none;
+}
+
+.list-group .active, .list-group .active:hover {
+    background-color: rgb(29, 161, 242);
+}
+
+.list-group-item, .list-group-item:hover {
+    color: white;
+    background-color: #181818;
+}
+
+.list-group-item {
+    border-color: #202020;
+}
+
+.nav a:hover, .nav .nav-item .active:hover {
+    background-color: #181818;
+    color: white;
+}
+
+.nav-pills .nav-item a {
+    color: white;
+}
+
+.nav-pills .nav-item .active, .nav-pills .nav-item .active:hover {
+    background-color: rgb(29, 161, 242);
+    color: white;
+}
+
+.list-group .btn {
+    background-color: rgb(29, 161, 242);
+    border: none;
+    font-weight: bold;
+}
