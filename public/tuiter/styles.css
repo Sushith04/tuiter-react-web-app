@@ -97,3 +97,8 @@ input:focus {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 }
+
+.wd-navigation .list-group-item:hover {
+    background-color: rgb(29, 161, 242);
+    color: white;
+}

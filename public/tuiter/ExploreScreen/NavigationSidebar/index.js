@@ -1,6 +1,6 @@
 const NavigationSidebar = (active) => {
     return (`
-        <div class="list-group">
+        <div class="list-group wd-navigation">
             <a href="#"
                class="list-group-item list-group-item-action">
                 <div class="row">
