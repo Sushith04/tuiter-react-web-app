@@ -1,0 +1,15 @@
+{
+  "firstName": "Sushith",
+  "lastName": "Dharmavarapu",
+  "handle": "@sushith04",
+  "profilePicture": "/images/owner.jpg",
+  "bannerPicture": "/images/tuiter-back.jpeg",
+  "bio": "A current graduate student at Northeastern University pursuing MS in Computer Science.",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "10/04/2000",
+  "dateJoined": "04/2019",
+  "followingCount": 340,
+  "followersCount": 223,
+  "tuits": 1247
+}

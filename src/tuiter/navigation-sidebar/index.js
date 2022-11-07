@@ -5,14 +5,17 @@ import {useLocation} from "react-router";
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[2];
+    let active = paths[2];
+    if (paths.length === 2 || active ==='') {
+        active='home';
+    }
     return (
         <div className="list-group">
             <a className="list-group-item">
                 <span className="d-none d-xl-block">Tuiter</span>
                 <span className="d-block d-xl-none"><i className="fab fa-twitter"></i></span>
             </a>
-            <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+            <Link to="/tuiter" className={`list-group-item ${active === 'home'?'active':''}`}>
                 <div className="row">
                     <div className="col-1">
                         <i className="fa-solid fa-house-chimney"></i>
@@ -35,7 +38,7 @@ const NavigationSidebar = () => {
             <Link to="/" className="list-group-item">
                 <div className="row">
                     <div className="col-1">
-                        <i className="fa-solid fa-flask"></i>
+                        <i className="fa-solid fa-asterisk"></i>
                     </div>
                     <div className="col-2">
                         <span className="d-none d-xl-block">Labs</span>
@@ -75,8 +78,7 @@ const NavigationSidebar = () => {
                     </div>
                 </div>
             </a>
-            <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
                 <div className="row">
                     <div className="col-1">
                         <i className="fa-solid fa-user"></i>
@@ -85,7 +87,7 @@ const NavigationSidebar = () => {
                         <span className="d-none d-xl-block">Profile</span>
                     </div>
                 </div>
-            </a>
+            </Link>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 <div className="row">

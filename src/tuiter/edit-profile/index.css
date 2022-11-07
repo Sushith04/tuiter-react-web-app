@@ -1,0 +1,79 @@
+.wd-save {
+    color: white;
+    background-color: black;
+    border: 1px ridge black;
+    font-weight: bold;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: -3px;
+}
+
+.wd-save:hover {
+    color: white;
+}
+
+.wd-profilePic {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.wd-profilePic .wd-profilePic-content {
+    opacity: 1;
+}
+
+.wd-profilePic .wd-profilePic-image {
+    opacity: .5;
+}
+
+.wd-backPic {
+    position: relative;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.wd-backPic .wd-profilePic-content {
+    opacity: 1;
+}
+
+.wd-backPic .wd-profilePic-image {
+    opacity: .5;
+}
+
+.wd-profilePic-image {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    width: 100%;
+}
+
+.wd-profilePic-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+.wd-profilePic-icon {
+    color: white;
+    padding-bottom: 8px;
+}
+
+.fas {
+    font-size: 25px;
+}

@@ -13,7 +13,7 @@ const WhatsHappening = () => {
     }
     return (
         <div className="row">
-            <div className="col-auto">
+            <div className="col-2">
                 <img src="/images/nasa.jpg" width={60}/>
             </div>
             <div className="col-10">

@@ -1,0 +1,20 @@
+.wd-rounded {
+    margin-top: -75px;
+}
+
+.wd-ee {
+    color: black;
+    background-color: white;
+    border: 1px ridge lightgrey;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.wd-ee:hover {
+    color: #0275d8;
+}
