@@ -4,12 +4,15 @@ import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
     const postsArray = useSelector(state => state.tuits)
+
+    if (!postsArray) {
+        return null
+    }
+
     return (
         <ul className="list-group">
             {
-                postsArray.map(post =>
-                                   <PostSummaryItem
-                                       key={post._id} post={post}/>)
+                postsArray.map(post => <PostSummaryItem key={post._id} post={post}/>)
             }
         </ul>
     );

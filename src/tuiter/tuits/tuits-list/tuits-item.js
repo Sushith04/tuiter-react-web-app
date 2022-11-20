@@ -1,12 +1,12 @@
 import React from "react";
-import Index from "../TuitStats";
+import TuitStats from "../TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits-reducer";
+import {deleteTuitThunk} from "../../../services/tuits-thunks";
 
 const TuitsItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return (
         <li className="list-group-item">
@@ -24,7 +24,7 @@ const TuitsItem = ({tuit}) => {
                         className="text-secondary fw-normal"> {tuit.handle} &middot; {tuit.time}</span>
                     </div>
                     <div>{tuit.tuit}</div>
-                    <Index tuit={tuit}/>
+                    <TuitStats tuit={tuit}/>
                 </div>
             </div>
         </li>
