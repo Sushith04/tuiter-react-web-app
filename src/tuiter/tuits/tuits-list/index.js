@@ -21,7 +21,7 @@ const TuitList = () => {
             }
             {
                 tuits.map(tuit =>
-                                   <TuitsItem key={tuit._id} tuit={tuit}/>)
+                              <TuitsItem key={tuit._id} tuit={tuit}/>)
             }
         </ul>
     );
